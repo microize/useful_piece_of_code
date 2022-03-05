@@ -1,10 +1,10 @@
 In Google Colab
 
 # downloading data from link
-!wget https://s3-ap-southeast-1.amazonaws.com/he-public-data/datasetaff9788.zip
+!wget https://s3-ap-southeast-1.amazonaws.com/he-public-data/datasetaff.zip
 
 # unzip the zip link
-!unzip datasetaff9788.zip
+!unzip datasetaff.zip
 
 # list the files in colab local where files got downloaded
 !ls /content/dataset
