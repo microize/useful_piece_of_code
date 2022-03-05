@@ -1,0 +1,13 @@
+In Google Colab
+
+# downloading data from link
+!wget https://s3-ap-southeast-1.amazonaws.com/he-public-data/datasetaff9788.zip
+
+# unzip the zip link
+!unzip datasetaff9788.zip
+
+# list the files in colab local where files got downloaded
+!ls /content/dataset
+
+# copy the local file to google drive folder
+!cp -r '/content/dataset/' '/content/drive/MyDrive/Data-colab/PGP_glass_data_science/'
