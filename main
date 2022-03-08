@@ -11,3 +11,9 @@ In Google Colab
 
 # copy the local file to google drive folder
 !cp -r '/content/dataset/' '/content/drive/MyDrive/Data-colab/PGP_glass_data_science/'
+
+
+
+# altering display 
+pd.set_option('display.max_columns',None)
+pd.set_option('display.max_rows',None)
